@@ -1,0 +1,23 @@
+svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+div.first {
+    width: 500px;
+    height: 500px;
+}
+div.second {
+    width: 500px;
+    height: 500px;
+}
+
+div#root div.first svg rect.a {
+    fill: #2c619b;
+}
+div#root div.first svg rect.b {
+    fill: #0d7c84;
+}
+
